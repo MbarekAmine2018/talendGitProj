@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:cdzzmE36OXx921l2BLAoh3azDnl7j8Ai0BPM+S/r" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:3ez06E5kE6646042BtTTaM6bRklbOweCXtGVjFd3" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CQTufStuGwJLoQ3SfSPqTlzwTlCGtmbscJH8keuN" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uF/96639iFCY39Q4Zx9US2bB9xC0IAAqYVC6fREt" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -117,7 +117,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hMpd+wgZsnGqmYOf+YsfxfLW3HIg0DSn55zlPem+"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fpHrF9UCfUS/Xz1bo4f7D4+Iu4ua9oerPq8LYlmY"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
@@ -193,7 +193,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VwGoaPbwnYN/fJnMeafcY65M/kSNdB557uIaQhlc"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eNG78aZWLCUKg5a6MC8f71EjkfL3BpwaW25Jyo4M"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
@@ -258,6 +258,82 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tCreateTable_2"/>
   </node>
+  <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_3" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MYSQL"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_TABLE"/>
+    <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KAHt8Lol6GrMdKJO3jhsL21L6hnq6lRnpZrBgzho"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_ACCESS" value="&quot;C:/Users/AMINE MBAREK/Desktop/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/in.mdb&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_AS400_VERSION" value="jt400-9.8.jar" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_AS400" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_DB2" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_FIREBIRD" value="" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_FIREBIRD" value="&quot;C:/Users/AMINE MBAREK/Desktop/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/in.FDB&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="RUNNING_MODE" value="HSQLDB_SERVER" show="false"/>
+    <elementParameter field="CHECK" name="TLS" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="DBPATH_HSQL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_HSQL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATABASE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INFORMIX" value="" show="false"/>
+    <elementParameter field="TEXT" name="DBSERVER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INGRES" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_INTERBASE" value="" show="false"/>
+    <elementParameter field="TEXT" name="DBFILE_INTERBASE" value="&quot;C:/Users/AMINE MBAREK/Desktop/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/in.gdb&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="FRAMEWORK_TYPE" value="EMBEDED" show="false"/>
+    <elementParameter field="CHECK" name="CONNECTION_FLAG" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_JAVADB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DBROOTPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_MSSQL" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="MSSQL_DRIVER" value="JTDS" show="false"/>
+    <elementParameter field="CHECK" name="TEMPTABLE" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_MYSQL" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_MYSQL_VERSION" value="MYSQL_8"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_NETEZZA" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_ORACLE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID" show="false"/>
+    <elementParameter field="TEXT" name="RAC_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_POSTGRE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_POSTGRE_VERSION" value="V9_X" show="false"/>
+    <elementParameter field="CHECK" name="UNLOGGED" value="false" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_POSTGREPLUS" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SQLITE" value="" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_SQLITE" value="&quot;C:/Users/AMINE MBAREK/Desktop/TOS_DI-Win32-20200219_1130-V7.3.1/workspace/talend.db&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SYBASE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_SYBASE_VERSION" value="SYBSEIQ_16" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_TERADATA" value="" show="false"/>
+    <elementParameter field="TEXT" name="ODBCNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_GREENPLUM" value="" show="false"/>
+    <elementParameter field="CHECK" name="VERTICA_USE_CASCADE" value="true" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERTICA_VERSION" value="VERTICA_9_0" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_VERTICA" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_EXASOL" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_REDSHIFT" value="" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION_SNOWFLAKE" value="" show="false"/>
+    <elementParameter field="TEXT" name="ACCOUNT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" value="SET" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ENFORCE_DELIMITED_IDENTIFIERS" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="VERTICA_CREATE_PROJECTION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tCreateTable_3"/>
+  </node>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
@@ -265,6 +341,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_3" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
