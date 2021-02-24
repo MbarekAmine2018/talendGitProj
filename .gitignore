@@ -12,6 +12,9 @@ bin/
 *.iws
 out/
 
+#
+poms/code/routines/target
+
 # Compilation output #
 target/
 *.class
